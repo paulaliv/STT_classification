@@ -1,0 +1,28 @@
+{
+  "name": "Dataset001_Kaggle",
+  "description": "My dataset description",
+  "tensorImageSize": "3D",
+  "modality": ["MRI"],
+  "labels": {
+         "background": 0,
+        "grey matter": 1,
+        "white matter": 2
+  },
+  "numTraining": 5,
+  "numTest": 2,
+  "training": [
+        {"image": "./imagesTr/patient_0000_0000.nii.gz", "label": "./labelsTr/patient_0000.nii.gz"},
+        {"image": "./imagesTr/patient_0001_0000.nii.gz", "label": "./labelsTr/patient_0001.nii.gz"},
+        {"image": "./imagesTr/patient_0002_0000.nii.gz", "label": "./labelsTr/patient_0002.nii.gz"},
+        {"image": "./imagesTr/patient_0003_0000.nii.gz", "label": "./labelsTr/patient_0003.nii.gz"},
+        {"image": "./imagesTr/patient_0004_0000.nii.gz", "label": "./labelsTr/patient_0004.nii.gz"}
+    ],
+    "test": [
+        "./imagesTs/patient_0005_0000.nii.gz",
+        "./imagesTs/patient_0006_0000.nii.gz"
+    ],
+  "channel_names": {
+    "0": "CT"
+  },
+  "file_ending": ".nii.gz"
+}
