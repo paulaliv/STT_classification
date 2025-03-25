@@ -1,0 +1,15 @@
+{
+    "channel_names": {
+        "0": "MRI"
+    },
+    "description": "Soft Tissue Segmentation WORC",
+    "file_ending": ".nii.gz",
+    "labels": {
+        "background": 0,
+        "tumour": 1
+    },
+    "name": "Soft_tissue_tumours WORC",
+    "numTest": 162,
+    "numTraining": 162,
+    "tensorImageSize": "3D"
+}
